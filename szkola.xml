@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<szkola>
+	<uczniowie>
+		<uczen plec="k">
+			<imie>Marta</imie>
+			<nazwisko>Szmidt</nazwisko>
+			<klasa>1a</klasa>
+			<dataurodzenia>2014-08-23</dataurodzenia>
+		</uczen>
+		<uczen plec="m">
+			<imie>Karol</imie>
+			<drugieimie>Kamil</drugieimie>
+			<nazwisko>Woźniak</nazwisko>
+			<klasa>1a</klasa>
+			<dataurodzenia>2014-07-11</dataurodzenia>
+		</uczen>
+		<uczen plec="m">
+			<imie>Piotr</imie>
+			<nazwisko>Cichański</nazwisko>
+			<klasa>1a</klasa>
+			<dataurodzenia>2013-11-20</dataurodzenia>
+		</uczen>
+		<uczen plec="k">
+			<imie>Anna</imie>
+			<drugieimie>Maria</drugieimie>
+			<nazwisko>Nowicka</nazwisko>
+			<klasa>1b</klasa>
+			<dataurodzenia>2013-05-03</dataurodzenia>
+		</uczen>
+		<uczen plec="k">
+			<imie>Martyna</imie>
+			<nazwisko>Woźniak</nazwisko>
+			<klasa>1b</klasa>
+			<dataurodzenia>2013-12-04</dataurodzenia>
+		</uczen>
+		<uczen plec="m">
+			<imie>Marcin</imie>
+			<nazwisko>Stranz</nazwisko>
+			<klasa>1c</klasa>
+			<dataurodzenia>2013-03-27</dataurodzenia>
+		</uczen>
+		<uczen plec="m">
+			<imie>Jan</imie>
+			<drugieimie>Andrzej</drugieimie>
+			<nazwisko>Gołędowski</nazwisko>
+			<klasa>1a</klasa>
+			<dataurodzenia>2013-02-05</dataurodzenia>
+		</uczen>
+		<uczen plec="k">
+			<imie>Lucyna</imie>
+			<nazwisko>Andrzejewicz</nazwisko>
+			<klasa>1c</klasa>
+			<dataurodzenia>2014-09-22</dataurodzenia>
+		</uczen>
+		<uczen plec="m">
+			<imie>Igor</imie>
+			<nazwisko>Grzędzielewski</nazwisko>
+			<klasa>1c</klasa>
+			<dataurodzenia>2013-06-16</dataurodzenia>
+		</uczen>
+		<uczen plec="m">
+			<imie>Oskar</imie>
+			<drugieimie>Aleksander</drugieimie>
+			<nazwisko>Wichura</nazwisko>
+			<klasa>1a</klasa>
+			<dataurodzenia>2013-10-11</dataurodzenia>
+		</uczen>
+		<uczen plec="m">
+			<imie>Filip</imie>
+			<nazwisko>Szcześniak</nazwisko>
+			<klasa>1b</klasa>
+			<dataurodzenia>2014-10-28</dataurodzenia>
+		</uczen>
+		<uczen plec="k">
+			<imie>Natalia</imie>
+			<drugie>Eliza</drugie>
+			<nazwisko>Pilska</nazwisko>
+			<klasa>1b</klasa>
+			<dataurodzenia>2013-08-14</dataurodzenia>
+		</uczen>
+		<uczen plec="m">
+			<imie>Remigiusz</imie>
+			<nazwisko>Nowak</nazwisko>
+			<klasa>1a</klasa>
+			<dataurodzenia>2014-07-13</dataurodzenia>
+		</uczen>
+		<uczen plec="k">
+			<imie>Patrycja</imie>
+			<drugieimie>Nikola</drugieimie>
+			<nazwisko>Szczepańska</nazwisko>
+			<klasa>1a</klasa>
+			<dataurodzenia>2013-04-23</dataurodzenia>
+		</uczen>
+		<uczen plec="m">
+			<imie>Adam</imie>
+			<nazwisko>Tyszka</nazwisko>
+			<klasa>1b</klasa>
+			<dataurodzenia>2014-01-29</dataurodzenia>
+		</uczen>
+		<uczen plec="m">
+			<imie>Krzysztof</imie>
+			<drugieimie>Hubert</drugieimie>
+			<nazwisko>Czerwiński</nazwisko>
+			<klasa>1c</klasa>
+			<dataurodzenia>2013-10-19</dataurodzenia>
+		</uczen>
+		<uczen plec="m">
+			<imie>Grzegorz</imie>
+			<nazwisko>Kowalski</nazwisko>
+			<klasa>1a</klasa>
+			<dataurodzenia>2013-04-19</dataurodzenia>
+		</uczen>
+		<uczen plec="m">
+			<imie>Tomasz</imie>
+			<drugieimie>Marcin</drugieimie>
+			<nazwisko>Sierpień</nazwisko>
+			<klasa>1c</klasa>
+			<dataurodzenia>2013-08-05</dataurodzenia>
+		</uczen>
+		<uczen plec="m">
+			<imie>Stefan</imie>
+			<nazwisko>Górkowski</nazwisko>
+			<klasa>1c</klasa>
+			<dataurodzenia>2013-03-01</dataurodzenia>
+		</uczen>
+		<uczen plec="k">
+			<imie>Iga</imie>
+			<nazwisko>Strus</nazwisko>
+			<klasa>1a</klasa>
+			<dataurodzenia>2013-05-07</dataurodzenia>
+		</uczen>
+		<uczen plec="k">
+			<imie>Monika</imie>
+			<drugieimie>Gabriela</drugieimie>
+			<nazwisko>Ogórek</nazwisko>
+			<klasa>1a</klasa>
+			<dataurodzenia>2013-05-09</dataurodzenia>
+		</uczen>
+		<uczen plec="k">
+			<imie>Laura</imie>
+			<nazwisko>Styś</nazwisko>
+			<klasa>1b</klasa>
+			<dataurodzenia>2013-02-06</dataurodzenia>
+		</uczen>
+		<uczen plec="k">
+			<imie>Ida</imie>
+			<nazwisko>Staniszewska</nazwisko>
+			<klasa>1c</klasa>
+			<dataurodzenia>2014-02-11</dataurodzenia>
+		</uczen>
+		<uczen plec="m">
+			<imie>Łukasz</imie>
+			<nazwisko>Grabowski</nazwisko>
+			<klasa>1b</klasa>
+			<dataurodzenia>2014-12-10</dataurodzenia>
+		</uczen>
+		<uczen plec="k">
+			<imie>Karolina</imie>
+			<nazwisko>Brzozowska</nazwisko>
+			<klasa>1b</klasa>
+			<dataurodzenia>2013-04-01</dataurodzenia>
+		</uczen>
+		<uczen plec="m">
+			<imie>Jan</imie>
+			<drugieimie>Robert</drugieimie>
+			<nazwisko>Biliński</nazwisko>
+			<klasa>1b</klasa>
+			<dataurodzenia>2013-11-09</dataurodzenia>
+		</uczen>
+		<uczen plec="k">
+			<imie>Olga</imie>
+			<nazwisko>Jędrysek</nazwisko>
+			<klasa>1c</klasa>
+			<dataurodzenia>2014-09-06</dataurodzenia>
+		</uczen>
+		<uczen plec="k">
+			<imie>Katarzyna</imie>
+			<nazwisko>Morkowska</nazwisko>
+			<klasa>1b</klasa>
+			<dataurodzenia>2013-03-02</dataurodzenia>
+		</uczen>
+		<uczen plec="m">
+			<imie>Maciej</imie>
+			<drugieimie>Piotr</drugieimie>
+			<nazwisko>Witkowski</nazwisko>
+			<klasa>1c</klasa>
+			<dataurodzenia>2014-01-24</dataurodzenia>
+		</uczen>
+		<uczen plec="k">
+			<imie>Marietta</imie>
+			<nazwisko>Łuczak</nazwisko>
+			<klasa>1c</klasa>
+			<dataurodzenia>2014-11-25</dataurodzenia>
+		</uczen>
+	</uczniowie>
+	<pracownicy>
+		<zarzad>
+			<dyrektor>
+				<imie>Adam</imie>
+				<nazwisko>Malicki</nazwisko>
+			</dyrektor>
+			<wicedyrektor>
+				<imie>Marzena</imie>
+				<nazwisko>Kosmowska</nazwisko>
+			</wicedyrektor>
+		</zarzad>
+		<nauczyciele>
+			<nauczyciel>
+				<imie>Karina</imie>
+				<nazwisko>Kuźniak</nazwisko>
+				<przedmiot>edukacja wczesnoszkolna</przedmiot>
+				<wychowawca>1a</wychowawca>
+			</nauczyciel>
+			<nauczyciel>
+				<imie>Bożena</imie>
+				<nazwisko>Nykiel</nazwisko>
+				<przedmiot>edukacja wczesnoszkolna</przedmiot>
+				<wychowawca>1b</wychowawca>
+			</nauczyciel>
+			<nauczyciel>
+				<imie>Małgorzata</imie>
+				<nazwisko>Szymczak</nazwisko>
+				<przedmiot>język angielski</przedmiot>
+				<wychowawca>1c</wychowawca>
+			</nauczyciel>
+			<nauczyciel>
+				<imie>Marcin</imie>
+				<nazwisko>Sikorski</nazwisko>
+				<przedmiot>wf</przedmiot>
+			</nauczyciel>
+			<nauczyciel>
+				<imie>Tomasz</imie>
+				<nazwisko>Szelowski</nazwisko>
+				<przedmiot>tańce</przedmiot>
+			</nauczyciel>
+		</nauczyciele>
+	</pracownicy>
+</szkola>
