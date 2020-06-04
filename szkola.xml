@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="plik.xsl"?>
 <szkola>
 	<uczniowie>
 		<uczen plec="k">
@@ -73,7 +74,7 @@
 		</uczen>
 		<uczen plec="k">
 			<imie>Natalia</imie>
-			<drugie>Eliza</drugie>
+			<drugieimie>Eliza</drugieimie>
 			<nazwisko>Pilska</nazwisko>
 			<klasa>1b</klasa>
 			<dataurodzenia>2013-08-14</dataurodzenia>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<xsd:simpleType name="stringtype">
+		<xsd:restriction base="xsd:string">
+		<xsd:pattern value="[A-Z][A-Z][A-Z]"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<xsd:simpleType name="klasa_typ">
+		<xsd:restriction base="xsd:string">
+		<xsd:pattern value="[1-9][a-z]"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<xsd:simpleType name="data_typ">
+		<xsd:restriction base="xsd:string">
+		<xsd:pattern value="[0-9][0-9][0-9][0-9]-[0-1][0-9]-[0-3][0-9]"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	
+	<xsd:simpleType name="atrybut_typ">
+		<xsd:restriction base="xs:string">
+      <xsd:enumeration value="k"/>
+      <xsd:enumeration value="m"/>
+    </xsd:restriction>
+	</xsd:simpleType>
+
+	<xsd:element name="szkola">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="uczniowie">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="uczen" maxOccurs="unbounded">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element name="imie" type="stringtype"/>
+										<xsd:element name="drugieimie" type="stringtype" minOccurs="0"/>
+										<xsd:element name="nazwisko" type="stringtype"/>
+										<xsd:element name="klasa" type="stringtype"/>
+										<xsd:element name="dataurodzenia" type="stringtype"/>
+									</xsd:sequence>
+									<xsd:attribute name="plec" type="atrybut_typ" use="required"/>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="pracownicy">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="zarzad">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element name="dyrektor">
+											<xsd:complexType>
+												<xsd:sequence>
+												<xsd:element name="imie" type="stringtype"/>
+												<xsd:element name="nazwisko" type="stringtype"/>
+												</xsd:sequence>
+											</xsd:complexType>
+										</xsd:element>
+										<xsd:element name="wicedyrektor" maxOccurs="2">
+											<xsd:complexType>
+												<xsd:sequence>
+												<xsd:element name="imie" type="stringtype"/>
+												<xsd:element name="nazwisko" type="stringtype"/>
+												</xsd:sequence>
+											</xsd:complexType>
+										</xsd:element>
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+							<xsd:element name="nauczyciele">
+							<xsd:complexType>
+							<xsd:sequence>
+							<xsd:element name="nauczyciel" maxOccurs="unbounded">
+											<xsd:complexType>
+												<xsd:sequence>
+												<xsd:element name="imie" type="stringtype"/>
+												<xsd:element name="nazwisko" type="stringtype"/>
+												<xsd:element name="przedmiot" type="stringtype"/>
+												<xsd:element name="wychowawca" type="klasa_typ" minOccurs="0"/>
+												</xsd:sequence>
+											</xsd:complexType>
+										</xsd:element>
+							</xsd:sequence>
+							</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

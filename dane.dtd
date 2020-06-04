@@ -1,0 +1,21 @@
+<!ENTITY % imienazwisko "imie, drugieimie?, nazwisko">
+<!ELEMENT szkola  (uczniowie,pracownicy)>
+
+<!ELEMENT uczniowie (uczen*)>
+<!ATTLIST uczen plec ID #REQUIRED>
+<!ELEMENT uczen (imienazwisko,klasa,dataurodenia)>
+<!ELEMENT imie (#PCDATA)>
+<!ELEMENT drugieimie (#PCDATA)>
+<!ELEMENT nazwisko (#PCDATA)>
+<!ELEMENT klasa (#PCDATA)>
+<!ELEMENT dataurodzenia (#PCDATA)>
+<!ELEMENT pracownicy (zarzad,nauczyciele)>
+<!ELEMENT zarzad (dyrektor,wicedyrektor*)>
+<!ELEMENT dyrektor (imienazwisko)>
+<!ELEMENT wicedyrektor (imienazwisko)>
+<!ELEMENT nauczyciele (nauczyciel*)>
+<!ELEMENT nauczyciel (imienazwisko,przedmiot,wychowawca?)>
+<!ELEMENT przedmiot (#PCDATA)>
+<!ELEMENT wychowawca (#PCDATA)>
+
+
